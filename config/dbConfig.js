@@ -1,9 +1,9 @@
 module.exports = {
     HOST: "localhost",
     USER: "postgres",
-    PASSWORD: "123456",
+    PASSWORD: "admin",
     // PASSWORD: "123456",
-    DB: "NavkarApparelsThree",
+    DB: "NavkarApparels",
     dialect: "postgres",
     port: 5432,
     pool: {
@@ -13,4 +13,3 @@ module.exports = {
       idle: 10000,
     },
   };
-  
